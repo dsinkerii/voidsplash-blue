@@ -54,7 +54,7 @@ voidsplash can be configured by means of shell variables inside
   voidsplash without runit, you will need to modify the program to ensure it
   exits.
 
-Place individual frames in `/etc/voidsplash`. It is recommended that files are
+Place individual frames (void-theme-green for the void logo themed color, void-theme for purple-ish colors) in `/etc/voidsplash`. It is recommended that files are
 named sequentially (for example, void-0.png void-1.png void-2.png …). `fbv` will
 scale images to the size of the display without changing the aspect ratio. If
 you do not want black bars make sure that the images have the same aspect ratio
